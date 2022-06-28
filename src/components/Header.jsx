@@ -1,6 +1,7 @@
 import { Box, Container } from '@mui/material'
 import { LocationSearch } from './LocationSearch'
 import { Logo } from './Logo'
+import { ProfileSettings } from './ProfileSettings'
 
 export const Header = () => {
   return (
@@ -8,7 +9,8 @@ export const Header = () => {
       sx={{
         display: 'flex',
         flexDirection: 'row',
-        minHeight: 70,
+        alignItems: 'center',
+        minHeight: 90,
         borderBottom: '1px solid #ddd',
       }}
     >
@@ -24,6 +26,7 @@ export const Header = () => {
         >
           <Logo />
           <LocationSearch />
+          <ProfileSettings />
         </Box>
       </Container>
     </Box>
