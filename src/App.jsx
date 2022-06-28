@@ -1,6 +1,7 @@
 import { Box, CssBaseline } from '@mui/material'
 import './App.css'
 import { Header } from './components/Header'
+import { OptionsTab } from './components/OptionsTab'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         }}
       >
         <Header />
+        <OptionsTab />
       </Box>
     </>
   )
