@@ -1,4 +1,5 @@
 import { Box, Container } from '@mui/material'
+import { LocationSearch } from './LocationSearch'
 import { Logo } from './Logo'
 
 export const Header = () => {
@@ -22,6 +23,7 @@ export const Header = () => {
           }}
         >
           <Logo />
+          <LocationSearch />
         </Box>
       </Container>
     </Box>
