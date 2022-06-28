@@ -1,6 +1,7 @@
-import { Box, CssBaseline } from '@mui/material'
+import { Box, Container, CssBaseline } from '@mui/material'
 import './App.css'
 import { Header } from './components/Header'
+import { LocationCards } from './components/LocationCards'
 import { OptionsTab } from './components/OptionsTab'
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       >
         <Header />
         <OptionsTab />
+        <Container maxWidth="xl" sx={{ mt: 3 }}>
+          <LocationCards />
+        </Container>
       </Box>
     </>
   )
